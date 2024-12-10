@@ -112,3 +112,19 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-12-10 11:19:36
+
+INSERT INTO voiture (numeromattr,marque, modèle, année)
+VALUES ('123ABC','BMW','B12MX','2024');
+
+INSERT INTO voiture (numeromattr,marque, modèle, année)
+VALUES ('A45WDS','PORSHE','PANAMERA','2024');
+
+INSERT INTO voiture (numeromattr,marque, modèle, année)
+VALUES ('453POU','SIAT','LEON FR','2024');
+
+DELETE FROM clientt WHERE id =$id
+
+
+UPDATE clientt
+SET nom = 'anas', 
+WHERE  adresse = 'safi';
